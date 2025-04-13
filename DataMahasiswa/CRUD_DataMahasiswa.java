@@ -310,7 +310,7 @@ public class CRUD_DataMahasiswa extends javax.swing.JFrame {
     java.sql.Connection conn = (Connection)Config.configDB();
     java.sql.PreparedStatement pst = conn.prepareStatement(kueri);
     pst.execute();
-    JOptionPane.showMessageDialog(null, "Data Barang Berhasil Ditambahkan");
+    JOptionPane.showMessageDialog(null, "Data Mahasiswa Berhasil Ditambahkan");
     } catch (Exception e) {
     JOptionPane.showMessageDialog(this, e.getMessage());
     }
