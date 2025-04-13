@@ -6,7 +6,7 @@ package DataMahasiswa;
 
 /**
  *
- * @author MSI-GAMING
+ * @author MSI-GAMING Thisya_11241083
  */
 import java.sql.Connection;
 import javax.swing.JOptionPane;
@@ -148,7 +148,7 @@ public class CRUD_DataMahasiswa extends javax.swing.JFrame {
                 {null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "Nama", "NIM", "Jurusan", "Alamat", "No.HP", "Fakultas", "Universitas", "Minat"
+                "Nama", "NIM", "Jurusan", "Alamat", "Kontak", "Fakultas", "Universitas", "Minat"
             }
         ));
         tmahasiswa.addMouseListener(new java.awt.event.MouseAdapter() {
