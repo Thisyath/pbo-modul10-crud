@@ -6,7 +6,7 @@ package DataMahasiswa;
 
 /**
  *
- * @author MSI-GAMING
+ * @author MSI-GAMING Thisya_11241083
  */
 import java.sql.Connection;
 import java.sql.DriverManager;
